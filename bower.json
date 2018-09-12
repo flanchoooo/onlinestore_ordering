@@ -1,0 +1,35 @@
+{
+  "name": "ordering",
+  "description": "Ordering Application",
+  "main": "",
+  "authors": [
+    "deant <deant@getcash.co.zw>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Ordering"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "uikit": "^2.27.5",
+    "bs-enhance": "^1.0.3",
+    "font-awesome": "^5.0.7",
+    "angular": "angularjs#^1.6.9",
+    "bootstrap": "^4.0.0",
+    "lodash": "^4.17.5",
+    "datatables.net": "^1.10.16",
+    "datatables.net-dt": "^3.2.2",
+    "angularUtils-pagination": "angular-utils-pagination#^0.11.1",
+    "animatelo": "^1.0.3"
+  },
+  "resolutions": {
+    "bs-enhance": "^2.0.1"
+  }
+}

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Wild Tech Solutions</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- Save for Web Styles (WTS home2.psd) -->
+<link rel="stylesheet" type="text/css" href="css/style-software.css">
+
+<link rel="shortcut icon" type="image/x-icon" href="http://www.wts.co.zw/images/wts_iconb.ico">
+
+<link href='http://fonts.googleapis.com/css?family=Allerta' rel='stylesheet' type='text/css'>
+
+<script src="js/modernizr-1.1.min.js"></script>
+
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<!-- include Cycle plugin -->
+
+<script type="text/javascript">
+
+function slideSwitch() {
+    var $active = $('#slideshow IMG.active');
+
+    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+    // use this to pull the images in the order they appear in the markup
+    var $next =  $active.next().length ? $active.next()
+        : $('#slideshow IMG:first');
+
+    // uncomment the 3 lines below to pull the images in random order
+    
+    // var $sibs  = $active.siblings();
+    // var rndNum = Math.floor(Math.random() * $sibs.length );
+    // var $next  = $( $sibs[ rndNum ] );
+
+
+    $active.addClass('last-active');
+
+    $next.css({opacity: 0.5})
+        .addClass('active')
+        .animate({opacity: 1.0}, 1000, function() {
+            $active.removeClass('active last-active');
+        });
+}
+
+$(function() {
+    setInterval( "slideSwitch()", 5000 );
+});
+
+
+
+</script>
+
+
+
+<!-- End Save for Web Styles -->
+</head>
+
+
+<body style="background-color:#c0c0c0; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;" id="software">
+
+
+<div align="center">
+<!-- Save for Web Slices (WTS home2.psd) -->
+<div id="Table_01">
+
+
+	<div id="header-logo">
+    
+    <nav class="head_nav">
+    
+    <ul>
+     <li id="home"><a href="index.html" title="Home">Home</a></li>
+     <li id="about"><a href="About.html" title="About">About</a></li>
+     <li id="software"><a href="Software-solutions" title="Software Solutions">Software Solutions</a></li>
+     <li><a href="POS-hardware.html" title="POS Hardware">POS Hardware</a></li>
+     <li><a href="Contact.html" title="Contact">Contact</a></li>
+    
+    </ul>
+    
+	</nav>
+    
+	</div>
+    
+    
+	<div id="Banner">
+		
+         <div id="slideshow">
+    <img src="images/banner_image1.jpg" alt="Slideshow Image 1" class="active" />
+    <img src="images/banner_image2.jpg" alt="Slideshow Image 2" />
+    
+</div>
+        
+        
+	</div>
+    
+    
+    
+    
+    
+	<div id="Banner-low-login-space">
+		
+	</div>
+    
+    
+    
+    
+	<div id="Banner-low-login-space005">
+		
+	</div>
+    
+    
+    
+    
+    
+	<div id="side-bar-01">
+    
+    <p class="sidebar_text">CLIENTS &amp; PARTNERS</p>
+		
+	</div>
+    
+    
+    
+    
+	<div id="Center-content-top" align="left">
+    <article class="art">
+    <h1 class="art"> OUR PRODUCTS</h1><br>
+    <h3 class="art"> ProPharm </h3>
+    
+    <p class="art_par1">Propharm is a <span style="font-weight:bold">system written specifically for the pharmacy retail market</span> with emphasis on combined drug dispensing and over the counter sales. Through years of development this package has been designed around sound pharmacy concepts, giving you all the information and data needed to make informed critical decisions and to run a successful pharmacy business. Industry leading, standard features include an <span style="font-weight:bold">unlimited number of stock items and accounts in multiple formats or types for both Debtors and Creditors. Combined with a full reporting system, various automation functions and users gain maximum usability.</span> System also offers incredible security features which include Level access passwords that can be user defined, user name and password authentication tool that is highly secure and efficient for per user reconciliation and audit purposes  </p><br>
+    <h3 class="art"> Complienz </h3>
+    <p class="art_par2"> Complienz is a<span style="font-weight:bold"> drug interaction software program</span>, including information such as side-effects, mode of action, warnings and special notes. There are also drug-to-food interactions and the effect of smoking, caffeine and alternative drugs on prescribed drugs, but, we also equip the user with the knowledge of why and when it will have an effect. It also includes information such as label directions, side-effects, mode of action, warnings and special notes at the click of a button. Complienz explains the mechanism behind drug-to-drug interactions, so that it can make sense and you can form your own opinions and make your own decisions. 
+ </p>
+ 
+ <p class="art_par2"> Counseling pamphlets can be printed for the patient. It is extremely easy to print since it is part of the software. It is written in layman’s English. It contains all the drug warnings and food-interactions and the effect of smoking on drugs – all the things you are supposed to warn your patients about. It also tells the patient what to do when he should e.g. stop smoking. Better patient compliance will follow. 
+ </p>
+ <br>
+ <h3 class="art"> Health Care Payment and Remittance Advice Electronic Billing system (Switching) – Medical clearing house </h3>
+ 
+ <p class="art_par2"> We are in the process of building a switch to offer this unique service, the automated Electronic Remittance Advice system, which supplies medical scheme remittances electronically. This allows pharmacies/practitioners to reconcile their medical scheme claims within seconds! 
+ </p>
+ 
+ <p class="art_par2"> Electronic remittance advice helps save time by automatically posting insurance payments based on electronic reports delivered to practices. Users can receive electronic remittance advice (ERA) reports, receive a receipt of an electronic funds transfer (EFT), and use electronic remittance advice reports to automatically post insurance payments and reconcile balances. By receiving electronic payments and automating the payment posting process, medical institutions get paid faster and save time
+
+ </p>
+ <br>
+ <h3 class="art"> EMR – Electronic Medical Records
+ </h3>
+ 
+ <p class="art_par2"> We provide EMR software so doctors and institutions all over the world, regardless of their economic status, will benefit from a centralized, high quality, secure and scalable system.
+EMR offers;
+
+ </p>
+ <br>
+ 
+ <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;100% paperless patient examination and history taking</p>
+ 
+ <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Patient Administration (creation, evaluations / consultations, history ... )</p>
+ 
+ <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Strong focus on family medicine and Primary Health Care</p>
+ 
+ <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Doctor Administration</p>
+ 
+ <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Lab Administration</p>
+ 
+ <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Medicine / Drugs information (vademécum)</p>
+ 
+ <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Medical stock and supply chain management</p>
+ 
+ <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Demographics and other statistical reports</p>
+ 
+ <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Financial Administration (Invoicing, ...).</p>
+ 
+ 
+ 
+ 
+ 
+    </article>
+	</div>
+    
+    
+    
+    
+	<div id="Banner-low-login-space008">
+		
+	</div>
+    
+    
+    
+    
+    
+	<div id="index-09">
+		
+	</div>
+    
+    
+    
+    
+	<div id="side-bar-content-01">
+		<br/>
+        <p class="sidebar_content_text_software">Wildech Solutions is privileged to be supplying products and services to the following:
+</p>
+<br>
+
+      <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Strathaven Pharmacy</p>
+        <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Kenlink thebridge Pharmacy</p>
+        <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Kenlink Avondale Pharmacy</p>
+        
+        <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Rockfoundation Medical Centre</p>
+        
+        <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Ascot pharmacy</p>
+        
+        <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Health Mart Pharmacy Mutare</p>
+        
+        <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Vitamin Bar</p>
+        
+        <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;University Of Zimbabwe st mary Clinic</p>
+        
+        <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;University Of Zimbabwe Seke Clinic</p>
+        
+        <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Plaza Mazoe Pharmacy</p>
+        
+        <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Plaza karigamombe Pharmacy</p>
+        
+        <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Trinity Pharmacy</p>
+        
+        <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Els Pharmacy</p>
+        
+        <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Queensdale Pharmacy</p>
+        
+        <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Rapha Pharmacy</p>
+        
+        <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Your pharmacy Mkhosana Victoria Falls</p>
+        
+        <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Health and All</p>
+        
+        <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Borradaile Hospital Marondera</p>
+        
+        <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Michael Galfand Clinic</p>
+        
+        <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Vlemag Pharmacy</p>
+        
+        <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Medix </p>
+        
+        <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;University Of Zimbabwe central Pharmacy</p>
+        
+        <p class="sidebar_content_text"><img src="images/bullet2.jpg"  class="" />&nbsp;&nbsp;Avenues Clinic</p>
+        
+        <br><br>
+        
+      <img src="images/people.jpg" border="0" class="people_image">
+        
+       
+	</div>
+    
+    
+    
+	<div id="side-bar-01011">
+		
+	</div>
+	<div id="footer-01">
+	  <footer class="footer_class">
+      
+      <ul >
+     <li id="" class="fp"><a href="index.html" title="Home">Home</a></li>
+     <li id="about"><a href="About.html" title="About">About</a></li>
+     <li id="software"><a href="Software-solutions.html" title="Software Solutions">Software Solutions</a></li>
+     <li><a href="POS-hardware.html" title="POS Hardware">POS Hardware</a></li>
+     <li><a href="Contact.html" title="Contact">Contact</a></li>
+      </ul>
+</footer>
+
+<p class="footer_paragraph"> &copy;Copywrite 2012 WildTech Solutions (Pvt) Ltd , Powered by <a href="http://www.apicaledge.com" target="_blank"> <span style="text-decoration:underline; color:#575a58" >Apical Edge</span> </a>           </p>	  
+	</div>
+    
+    
+    
+	<div id="footer-02">
+		
+	</div>
+    
+    
+  </div>
+
+</div>
+<!-- End Save for Web Slices -->
+</body>
+</html>

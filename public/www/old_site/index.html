@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Wild Tech Solutions</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- Save for Web Styles (WTS home2.psd) -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<link rel="shortcut icon" type="image/x-icon" href="http://www.wts.co.zw/images/wts_iconb.ico">
+
+<link href='http://fonts.googleapis.com/css?family=Allerta' rel='stylesheet' type='text/css'>
+  
+
+
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<!-- include Cycle plugin -->
+
+<script type="text/javascript">
+
+function slideSwitch() {
+    var $active = $('#slideshow IMG.active');
+
+    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+    // use this to pull the images in the order they appear in the markup
+    var $next =  $active.next().length ? $active.next()
+        : $('#slideshow IMG:first');
+
+    // uncomment the 3 lines below to pull the images in random order
+    
+    // var $sibs  = $active.siblings();
+    // var rndNum = Math.floor(Math.random() * $sibs.length );
+    // var $next  = $( $sibs[ rndNum ] );
+
+
+    $active.addClass('last-active');
+
+    $next.css({opacity: 0.5})
+        .addClass('active')
+        .animate({opacity: 1.0}, 1000, function() {
+            $active.removeClass('active last-active');
+        });
+}
+
+$(function() {
+    setInterval( "slideSwitch()", 5000 );
+});
+</script>
+
+<!-- End Save for Web Styles -->
+</head>
+
+
+<body style="background-color:#c0c0c0; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;" id="home">
+
+
+<div align="center">
+<!-- Save for Web Slices (WTS home2.psd) -->
+<div id="Table_01">
+
+
+	<div id="header-logo">
+    
+    <nav class="head_nav">
+    
+    <ul>
+     <li id="home"><a href="index.html" title="Home">Home</a></li>
+     <li id="about"><a href="About.html" title="About">About</a></li>
+     <li id="software"><a href="Software-solutions.html" title="Software Solutions">Software Solutions</a></li>
+     <li><a href="POS-hardware.html" title="POS Hardware">POS Hardware</a></li>
+     <li><a href="Contact.html" title="Contact">Contact</a></li>
+    
+    </ul>
+    
+	</nav>
+    
+	</div>
+    
+    
+	<div id="Banner">
+    
+	  
+
+	
+	
+	<div id="slideshow">
+    <img src="images/banner_image1.jpg" alt="Slideshow Image 1" class="active" />
+    <img src="images/banner_image2.jpg" alt="Slideshow Image 2" />
+    
+</div>
+	
+	
+
+	
+
+	</div>
+    
+    
+    
+    
+    
+	<div id="Banner-low-login-space">
+		
+	</div>
+    
+    
+    
+    
+	<div id="Banner-low-login-space005">
+		
+	</div>
+    
+    
+    
+    
+    
+	<div id="side-bar-01">
+    
+    <p class="sidebar_text"> SERVICES</p>
+		
+	</div>
+    <div id="side-bar-01_long"></div>
+    
+    
+    
+	<div id="Center-content-top" align="left">
+    <article class="art">
+    <h1 class="art"> WILD TECH SOLUTIONS offers software and hardware solutions for the medical and retail industry…</h1>
+    
+    <p class="art_par1">With six years of experience in solution provision, WildTech guarantees localized installations, support skills, regular training, hardware sales/distribution of high quality, peripherals with local warranties.</p>
+    
+    <p class="art_par2"> We operate a 365 call centre and have developed a Knowledge Database which assists with problem resolution. We outsource certain operations, but effectively manage them, e.g. CCTV, networking and repairs and maintenance to some equipment.
+ </p>
+    </article>
+	</div>
+    
+    
+    
+    
+	<div id="Banner-low-login-space008">
+		
+	</div>
+    
+    
+    
+    
+    
+	<div id="index-09">
+		
+	</div>
+    
+    
+    
+    
+	<div id="side-bar-content-01">
+		<br/>
+        <p class="sidebar_content_text"><img src="images/bullet.jpg"  class="" />&nbsp;&nbsp;ProPham</p>
+        <p class="sidebar_content_text"><img src="images/bullet.jpg"  class="" />&nbsp;&nbsp;Complienz</p>
+        <p class="sidebar_content_text"><img src="images/bullet.jpg"  class="" />&nbsp;&nbsp;Health Care Payment and Remittance &nbsp;&nbsp;&nbsp;&nbsp; Advice Electronic Billing system </p>
+        <p class="sidebar_content_text">&nbsp;&nbsp;(Switching)-Medical clearing house </p>
+        <p class="sidebar_content_text"><img src="images/bullet.jpg"  class="" />&nbsp;&nbsp;EMR - Electronic Medical Records</p>
+        
+        <p class="sidebar_content_text"><img src="images/bullet.jpg"  class="" />&nbsp;&nbsp;Hardware</p>
+	</div>
+    
+    
+    
+	<div id="side-bar-01011">
+		
+	</div>
+    
+    
+    
+	<div id="index-12">
+		
+	</div>
+    
+    
+    
+	
+    
+    
+    
+	<div id="index-14">
+		<img src="images/index_14.gif" width="2" height="15" alt="">
+	</div>
+    
+    
+    
+	<div id="filler-01">
+		
+	</div>
+    
+    
+    
+    
+	<div id="side-bar-02">
+    
+    <p class="sidebar2_text"> SOLUTIONS</p>
+		
+	</div>
+    
+    
+    
+    
+	<div id="side-bar-content-02">
+    
+    <br/>
+        <p class="sidebar_content_text"><img src="images/bullet.jpg"  class="" />&nbsp;&nbsp;For Pharmacies</p>
+        <p class="sidebar_content_text"><img src="images/bullet.jpg"  class="" />&nbsp;&nbsp;For Doctors/Practises</p>
+        <p class="sidebar_content_text"><img src="images/bullet.jpg"  class="" />&nbsp;&nbsp;For Clinics</p>
+        <p class="sidebar_content_text"><img src="images/bullet.jpg"  class="" />&nbsp;&nbsp;For Hospitals</p>
+		
+        <p class="sidebar_content_text"></p>
+	</div>
+    
+    
+    
+	<div id="filler-02">
+		
+	</div>
+    
+    
+    
+	<div id="Center-divider">
+		<img src="images/Center_divider.gif" width="617" height="12" alt="">
+	</div>
+    
+    
+	<div id="Center-bottom-content" align="left">
+		
+       <aside class="aside_image">
+       
+       
+       <img src="images/home_staff.jpg">
+       
+       </aside> 
+        
+        
+        
+        <article class="center_bottom_text_div2">
+        
+        <h1 class="center_bottom_text_heading"></h1>
+        
+       <p class="text2"> <span style="font-weight:bold">WTS aims to GROW to be the FIRST choice medical systems SOLUTION PROVIDER in the REGION,
+to make a DIFFERENCE to our CUSTOMERS both SMALL and LARGE by providing INNOVATIVE solutions
+and developing BUSINESS ALLIANCES by employing MAGIC PEOPLE</span></p>
+        
+      <p class="text1"> </p>
+      
+      <p class="text">  </p>
+      
+      <p class="text">  </p>
+      
+      <p class="text"> </p>
+      
+    <p class="text">  </p>
+        </article>
+        
+	</div>
+    
+    
+    
+	<div id="side-bar-divider">
+		<img src="images/side_bar_divider.gif" width="342" height="30" alt="">
+	</div>
+    
+    
+	<div id="index-22">
+		<img src="images/index_22.gif" width="2" height="185" alt="">
+	</div>
+    
+    
+	<div id="side-bar-content-bottom">
+		
+        
+        
+       
+
+
+        
+       <aside class="side_clients">
+       <br>
+       <h2 class="side_clients_text">CLIENT LIST <a href="Software-solutions.html"><img src="images/all_clients.jpg" border="0" align="right" class="more"></a></h2>
+       
+       <ul class="side_clients_text2">
+       <li>Strathaven Pharmacy </li>
+       <li>Kenlink thebridge Pharmacy </li>
+       <li>Kenlink Avondale Pharmacy </li>
+       <li>Rockfoundation Medical</li>
+       <li>Ascort Pharmacy</li>
+       <li>Health Mart Mutare</li>
+       <li>Vitamin Bar</li>
+       <li>UZ st mary clinic</li>
+       <li>UZ Seke Clinic</li>
+       <li>Plaza Mazoe Pharmacy</li>
+       
+       </ul>
+       </aside> 
+       
+      
+	</div>
+    
+    
+    
+	<div id="footer-01">
+	  <footer class="footer_class">
+      
+      <ul >
+     <li id="home" class="fp"><a href="index.html" title="Home">Home</a></li>
+     <li><a href="About.html" title="About">About</a></li>
+     <li id="software"><a href="Software-solutions.html" title="Software Solutions">Software Solutions</a></li>
+     <li><a href="POS-hardware.html" title="POS Hardware">POS Hardware</a></li>
+     <li><a href="Contact.html" title="Contact">Contact</a></li>
+      </ul>
+</footer>
+
+<p class="footer_paragraph"> &copy;Copywrite 2012 WildTech Solutions (Pvt) Ltd , Powered by <a href="http://www.apicaledge.com" target="_blank"> <span style="text-decoration:underline; color:#575a58" >Apical Edge</span> </a>           </p>	  
+	</div>
+    
+    
+    
+	<div id="footer-02">
+		
+	</div>
+    
+    
+  </div>
+
+</div>
+<!-- End Save for Web Slices -->
+</body>
+</html>

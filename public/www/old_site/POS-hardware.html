@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Wild Tech Solutions</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- Save for Web Styles (WTS home2.psd) -->
+<link rel="stylesheet" type="text/css" href="css/style-pos.css">
+
+<link rel="shortcut icon" type="image/x-icon" href="http://www.wts.co.zw/images/wts_iconb.ico">
+
+<link href='http://fonts.googleapis.com/css?family=Allerta' rel='stylesheet' type='text/css'>
+
+<script src="js/modernizr-1.1.min.js"></script>
+
+
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<!-- include Cycle plugin -->
+
+<script type="text/javascript">
+
+function slideSwitch() {
+    var $active = $('#slideshow IMG.active');
+
+    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+    // use this to pull the images in the order they appear in the markup
+    var $next =  $active.next().length ? $active.next()
+        : $('#slideshow IMG:first');
+
+    // uncomment the 3 lines below to pull the images in random order
+    
+    // var $sibs  = $active.siblings();
+    // var rndNum = Math.floor(Math.random() * $sibs.length );
+    // var $next  = $( $sibs[ rndNum ] );
+
+
+    $active.addClass('last-active');
+
+    $next.css({opacity: 0.5})
+        .addClass('active')
+        .animate({opacity: 1.0}, 1000, function() {
+            $active.removeClass('active last-active');
+        });
+}
+
+$(function() {
+    setInterval( "slideSwitch()", 5000 );
+});
+
+
+
+
+
+
+
+
+</script>
+
+
+
+<!-- End Save for Web Styles -->
+</head>
+
+
+<body style="background-color:#c0c0c0; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;" id="poshardware">
+
+
+<div align="center">
+<!-- Save for Web Slices (WTS home2.psd) -->
+<div id="Table_01">
+
+
+	<div id="header-logo">
+    
+    <nav class="head_nav">
+    
+    <ul>
+     <li id="home"><a href="index.html" title="Home">Home</a></li>
+     <li id="about"><a href="About.html" title="About">About</a></li>
+     <li id="software"><a href="Software-solutions.html" title="Software Solutions">Software Solutions</a></li>
+     <li id="poshardware"><a href="POS-hardware.html" title="POS Hardware">POS Hardware</a></li>
+     <li id="contact"><a href="Contact.html" title="Contact">Contact</a></li>
+    
+    </ul>
+    
+	</nav>
+    
+	</div>
+    
+    
+	<div id="Banner">
+    
+     <div id="slideshow">
+    <img src="images/banner_image1.jpg" alt="Slideshow Image 1" class="active" />
+    <img src="images/banner_image2.jpg" alt="Slideshow Image 2" />
+    
+</div>
+    
+		
+	</div>
+    
+    
+    
+    
+    
+	<div id="Banner-low-login-space">
+		
+	</div>
+    
+    
+    
+    
+	<div id="Banner-low-login-space005">
+		
+	</div>
+    
+    
+    
+    
+    
+	<div id="side-bar-01">
+    
+    <p class="sidebar_text"> CLIENTS & PARTNERS</p>
+    
+    
+     <article class="propham_image"  align="left">
+    <img src="images/propharm.jpg" align="left" width="130">
+    </article>
+    
+    <article class="propham_image2">
+    <a href="Software-solutions.html"><img src="images/full_list.jpg" width="83" align="right"></a>
+    </article>
+    
+    
+    <p class="sidebar_text_why"> WHY WTS?</p>
+		
+	</div>
+    
+    
+    
+    
+	<div id="Center-content-top" align="left">
+    <article class="art" align="left">
+    
+ <table align="left">
+ 
+ <tr>
+ 
+ <td><h3 class="cmp">Complete package</h3><br><img src="images/hardware/complete.jpg" width="350" height="372"></td><td class="TGR"></td><td><h3 class="prod_title" align="left">Bar code scanners</h3><br><br><br><img src="images/hardware/Barcodes scanners.jpg" width="120" height="120"><br><br><br><br><br><br><img src="images/hardware/barcodeScanner2.jpg" width="120" height="120"></td>
+ 
+ 
+ </tr>
+ 
+ <tr></tr>
+ 
+ 
+ 
+ 
+ </table>
+ 
+ 
+    </article>
+	</div>
+	<div id="side-bar-content-02">
+	  
+	  
+      <p class="sidebar_content_text"><span style="font-weight:bold">The difference we try to make for our customers is based simply around a manageable progressive long term relationship. The first step is to automate sites ensure 100% computer based procedures and to ensure:</span></p><br>
+        <p class="sidebar_content_text">- Full stock control with theoretical stock on 
+   hand figures available “live”</p>
+   
+   <p class="p2">- Fast accurate receiving with management
+   controls</p>
+   
+        <p class="p2">- Automatic pricing based on preset markups 
+   (sell at the right price)</p>
+        <p class="p2">- Speed and accuracy at the exit points 
+   employing customer loyalty 
+- Reporting for management daily</p>
+
+<p class="p2">- Reporting for management daily</p>
+		
+        
+	</div>
+    
+    
+    
+	<div id="filler-02">
+		
+	</div>
+    
+    
+    
+	<!--<div id="Center-divider">
+		<img src="images/Center_divider.gif" width="617" height="12" alt="">
+	</div> -->
+    
+    
+	<div id="Center-bottom-content" align="left">
+		
+        
+      <br> <br><br>
+       <table class="tableft2" align="left">
+       <tr>
+       <td><h3 class="prod_title" align="center">Barcode Printer</h3><br> <img src="images/hardware/barcode printers.bmp" height="120"></td>
+       
+       <td class="tdprinters"></td>
+       
+       <td ><h3 class="prod_title" align="center">Receipt printer</h3><br> <img src="images/hardware/ReceiptPrinter.jpg" height="120"></td>
+       
+        <td class="tdprinters"></td>
+       <td><h3 class="prod_title" align="center">Drug Label Printer</h3><br><img src="images/hardware/Copy-Drug label Printer.png" height="120"></td>
+       
+       </tr>
+       
+       
+       
+       
+       
+       </table>  
+       
+       
+    
+     <br><br> <br><br>
+     
+     <table class="cmpters" align="left">
+       <tr>
+       <td><h3 class="prod_title" align="center">Computers</h3><br> <img src="images/hardware/computers 3.jpg" height="120"></td>
+       
+        <td class="tdprinters2"></td>
+       <td><br><img src="images/hardware/Computers2.jpg" height="120"></td>
+       
+        <td class="tdprinters2"></td>
+       
+       <td><h3 class="prod_title" align="center"></h3><br> <img src="images/hardware/computers.jpg" height="120"></td>
+       </tr>
+       
+       
+       
+       
+       
+       </table>   
+     
+     <br>
+     
+     <table class="cmpters" align="left">
+       <tr>
+       <td><h3 class="prod_title" align="center">networking</h3><br> <img src="images/hardware/networking.jpg" height="120"></td>
+       <td class="tdprinters3"></td>
+       
+       <td><h3 class="prod_title" align="center">Copy/Drug label Printer</h3><br> <img src="images/hardware/Copy-Drug label Printer2.jpg" height="120"></td>
+       
+       <td class="tdprinters4"></td>
+       
+       <td><h3 class="prod_title" align="center">ups</h3><br> <img src="images/hardware/UPS.jpg" height="120"></td>
+       </tr>
+       
+       
+       
+       
+       
+       </table>   
+     
+     
+     
+     
+        
+	</div>
+	<div id="side-bar-content-bottom">
+		<br><br>
+      <p class="sidebar_content_text_about">With over 50 retail customers through the channel, and 50 to 60 non-retail customers, the development of a 365-day Call Centre to manage quick resolution of issues has allowed the improvement of customer service.</p>
+       
+
+        
+       
+       
+	</div>
+    
+    
+    
+	<div id="footer-01">
+	  <footer class="footer_class">
+      
+      <ul >
+     <li id="" class="fp"><a href="index.html" title="Home">Home</a></li>
+     <li id="about"><a href="About.html" title="About">About</a></li>
+     <li id="software"><a href="Software-solutions" title="Software Solutions">Software Solutions</a></li>
+     <li id="poshardware"><a href="POS-hardware.html" title="POS Hardware">POS Hardware</a></li>
+     <li id="contact"><a href="Contact.html" title="Contact">Contact</a></li>
+      </ul>
+</footer>
+
+<p class="footer_paragraph"> &copy;Copywrite 2012 WildTech Solutions (Pvt) Ltd , Powered by <a href="http://www.apicaledge.com" target="_blank"> <span style="text-decoration:underline; color:#575a58" >Apical Edge</span> </a>           </p>	  
+	</div>
+    
+    
+    
+	<div id="footer-02">
+		
+	</div>
+    
+    
+  </div>
+
+</div>
+<!-- End Save for Web Slices -->
+</body>
+</html>

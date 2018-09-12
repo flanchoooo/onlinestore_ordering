@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Wild Tech Solutions</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- Save for Web Styles (WTS home2.psd) -->
+<link rel="stylesheet" type="text/css" href="css/style-about.css">
+
+<link rel="shortcut icon" type="image/x-icon" href="http://www.wts.co.zw/images/wts_iconb.ico">
+
+<link href='http://fonts.googleapis.com/css?family=Allerta' rel='stylesheet' type='text/css'>
+
+<script src="js/modernizr-1.1.min.js"></script>
+
+
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<!-- include Cycle plugin -->
+
+<script type="text/javascript">
+
+
+function slideSwitch() {
+    var $active = $('#slideshow IMG.active');
+
+    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
+
+    // use this to pull the images in the order they appear in the markup
+    var $next =  $active.next().length ? $active.next()
+        : $('#slideshow IMG:first');
+
+    // uncomment the 3 lines below to pull the images in random order
+    
+    // var $sibs  = $active.siblings();
+    // var rndNum = Math.floor(Math.random() * $sibs.length );
+    // var $next  = $( $sibs[ rndNum ] );
+
+
+    $active.addClass('last-active');
+
+    $next.css({opacity: 0.5})
+        .addClass('active')
+        .animate({opacity: 1.0}, 1000, function() {
+            $active.removeClass('active last-active');
+        });
+}
+
+$(function() {
+    setInterval( "slideSwitch()", 5000 );
+});
+
+
+
+
+
+
+
+</script>
+
+
+<!-- End Save for Web Styles -->
+</head>
+
+
+<body style="background-color:#c0c0c0; margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px;" id="about">
+
+
+<div align="center">
+<!-- Save for Web Slices (WTS home2.psd) -->
+<div id="Table_01">
+
+
+	<div id="header-logo">
+    
+    <nav class="head_nav">
+    
+    <ul>
+     <li id="home"><a href="index.html" title="Home">Home</a></li>
+     <li id="about"><a href="About.html" title="About">About</a></li>
+     <li id="software"><a href="Software-solutions.html" title="Software Solutions">Software Solutions</a></li>
+     <li><a href="POS-hardware.html" title="POS Hardware">POS Hardware</a></li>
+     <li><a href="Contact.html" title="Contact">Contact</a></li>
+    
+    </ul>
+    
+	</nav>
+    
+	</div>
+    
+    
+	<div id="Banner">
+    
+    <div id="slideshow">
+    <img src="images/banner_image1.jpg" alt="Slideshow Image 1" class="active" />
+    <img src="images/banner_image2.jpg" alt="Slideshow Image 2" />
+    
+</div>
+        
+		
+	
+    
+		
+	</div>
+    
+    
+    
+    
+    
+	<div id="Banner-low-login-space">
+		
+	</div>
+    
+    
+    
+    
+	<div id="Banner-low-login-space005">
+		
+	</div>
+    
+    
+    
+    
+    
+	<div id="side-bar-01">
+    
+    <p class="sidebar_text"> CLIENTS & PARTNERS</p>
+    
+    
+    
+    
+    <article class="propham_image"  align="left">
+    <img src="images/propharm.jpg" align="left" width="130">
+    </article>
+    
+    <article class="propham_image2">
+    <a href="Software-solutions.html"><img src="images/full_list.jpg" width="83" align="right"></a>
+    </article>
+    
+    <p class="sidebar_text_why">SULUTIONS </p>
+		
+	</div>
+    
+    
+    
+    
+	<div id="Center-content-top" align="left">
+    <article class="art">
+    <h1 class="art"> OUR VISION
+</h1>
+    
+    <p class="art_par1">To be the first choice retail technology service provider for retail businesses in the region at a profit through professional, innovative and highly motivated staff and strategic partners of repute.  </p> <br>
+    
+    <h1 class="art"> OUR APPROACH
+</h1>
+<ul class="p3_left">
+<li class="p3_left">
+     -  To forge strong and trusting long-term relationships with our customers, 
+    employees  and suppliers
+ 
+ </li>
+ 
+ <li class="p3_left">
+  -  To create and maintain effective channels of communication with our customers. 
+</li>
+ 
+ <li class="p3_left">
+ -  To continuously measure customer satisfaction.
+ </li>
+ 
+ <li class="p3_left">
+ -  To provide quality products and services based on customer needs.
+ </li>
+ <li class="p3_left">
+ -  To ensure that our projects have total team commitment and that they are 
+    completed on time, within budget and to specification.
+ </li>
+ 
+ <li class="p3_left">
+ -  To be professional, enthusiastic and committed with total accountability at the core of our business ethic.
+ 
+ </li>
+ 
+ <li class="p3_left">
+ 
+ -  To use technology as a key enabler to achieve our ambition.
+ </li>
+ 
+ </ul>
+ 
+ 
+ 
+ 
+    </article>
+	</div>
+	<div id="side-bar-content-02">
+	  
+	  
+      <p class="sidebar_content_text"><span style="font-weight:bold"></span></p><br>
+        <p class="sidebar_content_text"><img src="images/bullet3.jpg"  class="" />&nbsp;&nbsp; For pharmacies</p>
+   
+        <p class="p2"><img src="images/bullet3.jpg"  class="" />&nbsp;&nbsp; For Doctors/Practises     </p>
+   
+        <p class="p2"> <img src="images/bullet3.jpg"  class="" />&nbsp;&nbsp; For Clinics   </p>
+        <p class="p2"> <img src="images/bullet3.jpg"  class="" />&nbsp;&nbsp;  For Hospitals  </p>
+
+        <p class="p2">     </p>
+		
+        
+	</div>
+    
+    
+    
+	<div id="filler-02">
+		
+	</div>
+    
+    
+    
+	<div id="Center-divider">
+		<img src="images/Center_divider.gif" width="617" height="12" alt="">
+	</div>
+    
+    
+	<div id="Center-bottom-content" align="left">
+		
+       
+        
+        
+        
+        <article class="floating1">
+        <p>WildTech Solutions was<span style="font-weight:bold"> founded in 2008 </span>with the strategic decision to focus its attention on Medical Retail Technical Service Provision incorporating the setting up of a hardware and software distribution. </p>
+        <br>
+        <p>WildTech Solutions selects best of <span style="font-weight:bold">breed medical systems </span>for all major medical business verticals and has skilled up on these products to ensure localized service provision in order to reduce the total cost of ownership of IT systems as </p>
+        </article>
+        
+        <article class="floating2">
+        
+        <p>well as reduce the barriers of entry into retail automation.</p><br>
+        
+        <p>Key to providing a solution to our customers is providing a software solution that is matched to their type of business. Around this we build the capacity to procure and deliver quality hardware at competitive prices, Retail peripherals are specialized and we have reduced the time to automate stores down to a few days, without in any way disrupting trading.</p>
+        
+        </article>
+        
+    
+        
+	</div>
+	<div id="side-bar-content-bottom">
+		
+        <p class="sidebar_content_text_about">With over 50 retail customers through the channel, and 50 to 60 non-retail customers, the development of a 365-day Call Centre to manage quick resolution of issues has allowed the improvement of customer service.</p>
+       
+
+        
+       
+       
+	</div>
+    
+    
+    
+	<div id="footer-01">
+	  <footer class="footer_class">
+      
+      <ul >
+     <li id="" class="fp"><a href="index.html" title="Home">Home</a></li>
+     <li id="about"><a href="About.html" title="About">About</a></li>
+     <li id="software"><a href="Software-solutions.html" title="Software Solutions">Software Solutions</a></li>
+     <li><a href="POS-hardware.html" title="POS Hardware">POS Hardware</a></li>
+     <li id="Contact"><a href="Contact.html" title="Contact">Contact</a></li>
+      </ul>
+</footer>
+
+<p class="footer_paragraph"> &copy;Copywrite 2012 WildTech Solutions (Pvt) Ltd , Powered by <a href="http://www.apicaledge.com" target="_blank"> <span style="text-decoration:underline; color:#575a58" >Apical Edge</span> </a>           </p>
+	</div>
+    
+    
+    
+	<div id="footer-02">
+		
+	</div>
+    
+    
+  </div>
+
+</div>
+<!-- End Save for Web Slices -->
+</body>
+</html>

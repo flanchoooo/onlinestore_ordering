@@ -1,0 +1,6 @@
+SERVER=160.119.249.52
+USERNAME=root
+PASSWORD=Venon?1986
+https://docs.google.com/document/d/10IDtkq8hx-tnO6KOC92NFdEGOQQV_ZLMlhFC9ndm5bw/edit
+http://129.232.213.115:2082/
+Username: revoluno Password: n1R6w7Ygj0
